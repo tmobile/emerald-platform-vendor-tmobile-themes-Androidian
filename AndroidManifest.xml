@@ -5,6 +5,11 @@
     xmlns:pluto="http://www.w3.org/2001/pluto.html"
     android:hasCode="false">
 
+    <application android:icon="@drawable/icon" android:label="@string/theme_name">
+              <activity android:name="com.tmobile.theme.Foo"
+                  android:label="@string/theme_name"/>
+    </application>
+
     <theme
         pluto:themeId="Androidian"
         pluto:styleId="@style/Androidian"
